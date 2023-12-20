@@ -1,0 +1,45 @@
+
+.error {
+  color: #ff4141;
+  font-size: 0.75rem;
+  text-align: left;
+  margin-top: 0.25rem;
+}
+
+form label {
+  font-size: 1rem;
+  font-weight: bold;
+  display: block;
+  text-align: left;
+  margin: 1rem 0 0.2rem;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 0.65rem 0.5rem;
+  font-size: 1rem;
+  color: black;
+  border: .5px solid #17171748;
+  background-color: white;
+  border-radius: 10px;
+  outline: none;
+}
+
+
+
+input::placeholder,
+select::placeholder {
+  color: #a0aec0;
+}
+
+input[type="checkbox"] {
+  width: fit-content;
+  margin-right: 1rem;
+  transform: scale(1.25);
+}
+
+.input-error{
+  border-color: #ff4141;
+}
+

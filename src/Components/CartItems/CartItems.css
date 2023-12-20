@@ -1,0 +1,11 @@
+.cart-items-format {
+  display: grid;
+  grid-template-columns: 0.5fr 2fr 1fr 1fr 1fr 1fr;
+  gap: 75px;
+  align-items: center;
+  padding: 20px 0px;
+  color: #454545;
+  font-size: 15px;
+  font-weight: 600px;
+}
+
